@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a freshly graduated software engineer in the heart of cajun country. Professionally, I dig programming languages, data science, and computer graphics. In my spare time I enjoy weightlifting and drawing. I aspire to move to the PNW and start a webcomic. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<center><img src="/images/tank.jpg" style="width: 200px; height: 200px;" /></center>
