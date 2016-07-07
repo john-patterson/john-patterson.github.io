@@ -11,7 +11,7 @@ email: john@johnppatterson.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal site of John Patterson, programmer at large.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "127.0.0.1:4000" #"http://johnppatterson.com" # the base hostname & protocol for your site
+url: "http://johnppatterson.com" # the base hostname & protocol for your site
 twitter_username: AcadianCoder
 github_username:  john-patterson
 
