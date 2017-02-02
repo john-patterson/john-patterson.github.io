@@ -23,5 +23,5 @@ First Unity project for VR class. Integrates a Kinect V2, a Leap Motion controll
 
 [**F# for great good**]({{ '/assets/documents/fsharp_asg.pdf' | prepend: site.baseurl }}) (PDF)
 
-Presentation I originally gave for the Acadian Software Group in Lafayette, LA on Feburary 8th, 2017. Gentle introduction to what functional programming and F# have to offer. 
+Presentation I originally gave for the Acadian Software Group in Lafayette, LA on Feburary 8th, 2017. Gentle introduction to what functional programming and F# have to offer. Covers language basics; glosses over more advanced topics like Computation Expressions, Active Patterns, and Type Providers; and tops it off with a little advice on where to look for more information.
 
