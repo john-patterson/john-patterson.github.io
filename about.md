@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am a freshly graduated software engineer in the heart of cajun country. Professionally, I dig programming languages, data science, and computer graphics. In my spare time I enjoy weightlifting and drawing. I aspire to move to the PNW and start a webcomic. 
+Recent graduate in Computer Science and Mathematics at the Univeristy of Louisiana at Lafayette. I like reading about programming languages and tyring out new ones. Off the silicon court, I like weightlifting, hiking, and taking long walks on the beach.
 
 <center><img src="/images/tank.jpg" style="width: 200px; height: 200px;" /></center>
