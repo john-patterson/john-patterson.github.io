@@ -9,48 +9,43 @@ permalink: /resume/
 Professional Experience
 ----------
 
-**Acadian Ambulance:** (June 2016 - Present)
+**Qualtrics:** (Jun 2017 - Present)
 
-* Created reporting dashboard in Clojure for integration testing application and a provisioner for deploying
-multiple configurations of the dashboard per testing process
+* Converted JavaScript Protractor framework to TypeScript with net loss of 9k LOC
 
-* Rewrote VB5 receivables rules engine to unit-tested C# code base (16k inserted / 25k deleted LOC)
+* Used TypeScript to leverage Gitlab API and automate monthly code coverage reporting
 
-* In process of rewriting UI for receivables software (approximately 125 WinForms), introduced F# into
-controller layer for concise expression of more complex forms
-
-* Exposed to TDD, Agile, and part of the DevOps core transformational team
-
-* Helped to onboard two interns onto my team
-
-Internship Experience
-----------
-
-**Acadian Ambulance:** (Jan. 2016 - June 2016)
-
-* Wrote unit tests and fixed bugs in facility statement generator, a WinForms C# project
-
-* Authored hotkey extension method library for WinForms to allow easy custom key chord definition
-
-* Created utility to clean internal ZIP code database against external sources
-* Wrote automated integration testing program to test new receivables engine against legacy software
-
-**Golfballs.com:** (May 2014 - Jan 2016)
-
-* Developed SMTP relay to log B2B sales rep e-mail for internal CRM project
-
-* Implemented build pipeline using AWS leading to more stable user-facing releases
-
-* Created graphics engine in .NET to allow image and text customer personalizations, licensed to Kingston
-
-* Rewrote internal batching system to allow for several new batch types and sub-batch types
-
-* Maintained several ETL programs for 3rd party vendor product and order feeds
-
-* Extended user-facing VB.NET website and tested feature efficacy using A/B testing
+* Mentored team of product developers on testable code architecture and clean code standards
 
 
-**University of Louisiana at Lafayette Computer Science Department:**
+**Acadian Ambulance:** (Jan 2016 - Jun 2017)
+
+* Created Clojure website with Ring & Compojure to debug and explore large-scale database diffs
+
+* Automated provisioning of new versions of the website also in Clojure
+
+* Introduced F# into a C# MVC project and mentored 3 FTEs in its adoption
+
+* Completed migration from 20 year old VB5 codebase to new C# codebase (16k inserted/ 25k deleted LOC)
+
+* Established a centralized logging system using Elasticsearch and Docker Compose
+
+* Rewrote interview process and on-boarded two part-time engineers
+
+
+**Golfballs.com (Part-time):** (May 2014 - Jan 2016)
+
+* Wrote multi-threaded SMTP relay to log e-mails for an in-house CRM system
+
+* Created GDI+ image customization library later licensed to Kingston
+
+* Automated AWS deployment and implemented smoke screen testing decreasing number production bugs
+
+* Full-stack development for VB.NET e-commerce site
+
+* Administered A/B testing to study new feature efficacy
+
+**University of Louisiana at Lafayette Computer Science Department (Intern):** (May 2014 - Jul 2014)
 
 * Created drivers for Arduino to control pair of stepper motors and various sensors and to communicate
 with an on-board Raspberry Pi
@@ -82,6 +77,6 @@ Skills
 ----------
 
 | --- | ---
-| Very skilled | C#, MSSQL, Python
-| Proficient in | Clojure, F#, C++, Visual Basic, Javascript
+| Very skilled | C#, MSSQL, Python, TypeScript, JavaScript
+| Proficient in | Clojure, F#, C++, Visual Basic
 | Frameworks/etc | Git, NUnit, SimpleInjector, Dapper, Ring, Compojure, Flask, SQLAlchemy
