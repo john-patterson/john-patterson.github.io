@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<center><img src="/assets/images/author.jpg" style="width: 200px; height: 200px;" /></center>
+<center><img src="/assets/images/rattlesnake.jpg" style="width: 200px; height: 200px;" /></center>
 
 Hey! My name is John. I just moved to the beautiful PNW from South Louisiana. I have a B.S. in Mathematics and a B.S. in Computer Science. I'm a ployglot programmer with a penchant for functional programming languages. 
 
