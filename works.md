@@ -5,11 +5,17 @@ permalink: /works/
 ---
 
 ### Projects
+[**anecdote-app**](private repo)
+
+Learning Android! It's my first app and I want to take to through the full SDLC to the app store, so I'm being super secretive about it here. Ask me if you're curious. Currently it is a sad shell of an Android app.
+
+[**LispJS**](https://github.com/john-patterson/lispjs) (JavaScript)
+
+A small custom lisp dialect. The interpreter is implemented in JS. This project was designed using TDD methodologies. Has Lists, Identifiers, Numbers, Expressions, Conditional statements (if), Lambdas, define, and function invocation! Oh my!
 
 [**Passcal**](https://github.com/john-patterson/passcal) (Python)
 
 Following along to the [Let's Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/) series by Ruslan Spivak. Implementation of the Pascal language in Python. With unit-tests! You should check out Ruslan's site if you haven't, he's got a lot of good series on making neat tools from scratch.
-
 
 [**Wavvy**](https://github.com/john-patterson/wavvy) (Python)
 
