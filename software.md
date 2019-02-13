@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Works
-permalink: /works/
+title: Software
+permalink: /software/
 ---
 
 ### Projects
