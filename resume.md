@@ -4,12 +4,30 @@ title: John Patterson
 permalink: /resume/
 ---
 
+_Download a PDF copy by clicking here._
 
 
 Professional Experience
 ----------
 
-**Qualtrics:** (Jun 2017 - Present)
+**Microsoft:** (Apr 2018 - Present)
+
+_Senior Software Engineer_
+
+* Served as Team Lead for a team of 5 engineers. Organized work, held regular 1:1's, prototyped and defined new feature areas, and communicated with stakeholders.
+
+* Used C# to statically analyzing test specification files for correctness in Microsoft's BuildXL engine.
+
+* Built and ran service critical to Office's migration onto Git VCS.
+
+* Drove code quality and TDD into the fabric of my development team.
+
+* Created first set of standards around on-call on my team.
+
+
+**Qualtrics:** (Jun 2017 - Apr 2018)
+
+_Software Engineer_
 
 * Converted JavaScript Protractor framework to TypeScript with net loss of 9k LOC
 
@@ -19,6 +37,8 @@ Professional Experience
 
 
 **Acadian Ambulance:** (Jan 2016 - Jun 2017)
+
+_Software Engineer_
 
 * Created Clojure website with Ring & Compojure to debug and explore large-scale database diffs
 
@@ -33,7 +53,9 @@ Professional Experience
 * Rewrote interview process and on-boarded two part-time engineers
 
 
-**Golfballs.com (Part-time):** (May 2014 - Jan 2016)
+**Golfballs.com:** (May 2014 - Jan 2016)
+
+_Software Engineer Intern_
 
 * Wrote multi-threaded SMTP relay to log e-mails for an in-house CRM system
 
@@ -45,7 +67,9 @@ Professional Experience
 
 * Administered A/B testing to study new feature efficacy
 
-**University of Louisiana at Lafayette Computer Science Department (Intern):** (May 2014 - Jul 2014)
+**UL Lafayette Computer Science Department:** (May 2014 - Jul 2014)
+
+_Software Engineer Intern_
 
 * Created drivers for Arduino to control pair of stepper motors and various sensors and to communicate
 with an on-board Raspberry Pi
@@ -60,18 +84,14 @@ remote to the robot
 Education
 ---------
 
-2012-2016
-:   **B.S. Computer Science**; University of Louisiana at Lafayette (Lafayette, LA)
-:   **B.S Mathematics**; University of Louisiana at Lafayette (Lafayette, LA)
+**B.S. Computer Science**; University of Louisiana at Lafayette (Lafayette, LA)
 
-	- GPA: 3.94 / 4.00
-    - *David R. Andrews Outstanding Scholar for Ray P. Authement College of Sciences (2016)*
-    - *Marion Butler Hall Memorial Endowed scholarship in Mathematics (2016)*
-    - *First place in MAA LA/MS student team competition (2015)*
-    - *Second place in MAA LA/MS student team competition (2016)*
-    - *President of Math Society (2014-2016)*
-    - *7 semesters President's List, 1 semester Dean's list*
-    - *Undergraduate Math research (solutions for linear circle maps)*
+**B.S Mathematics**; University of Louisiana at Lafayette (Lafayette, LA)
+- GPA: 3.94 / 4.00
+- *David R. Andrews Outstanding Scholar for Ray P. Authement College of Sciences (2016)*
+- *Marion Butler Hall Memorial Endowed scholarship in Mathematics (2016)*
+- *President of Math Society (2014-2016)*
+- *Undergraduate Math research (solutions for linear circle maps)*
 
 Skills
 ----------
