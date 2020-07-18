@@ -8,7 +8,7 @@ permalink: /about/
 
 Hey! My name is John.
 
-I'm a backend developer in Seattle, though I'm looking to relocated to The Netherlands. Compilers, functional programming languages, and data science excite me. I would also like to learn more about urban and transportation planning and how technology can be used to improve the urban landscape.
+I'm a backend developer in Seattle, though I'm looking to relocat to The Netherlands. Compilers, functional programming languages, and data science excite me. I would also like to learn more about urban and transportation planning and how technology can be used to improve the urban landscape.
 
 My current pet project is a roguelike game I am working on along with my friend. Once it is further along, I'll add it to my software list.
 
