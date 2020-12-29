@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/john-patterson/john-patterson.github.io/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/john-patterson/john-patterson.github.io/static/js/main.bd1ba9b4.chunk.js",
+    "main.js.map": "/john-patterson/john-patterson.github.io/static/js/main.bd1ba9b4.chunk.js.map",
+    "runtime-main.js": "/john-patterson/john-patterson.github.io/static/js/runtime-main.bbaf754b.js",
+    "runtime-main.js.map": "/john-patterson/john-patterson.github.io/static/js/runtime-main.bbaf754b.js.map",
+    "static/js/2.272abf68.chunk.js": "/john-patterson/john-patterson.github.io/static/js/2.272abf68.chunk.js",
+    "static/js/2.272abf68.chunk.js.map": "/john-patterson/john-patterson.github.io/static/js/2.272abf68.chunk.js.map",
+    "static/js/3.4b035f90.chunk.js": "/john-patterson/john-patterson.github.io/static/js/3.4b035f90.chunk.js",
+    "static/js/3.4b035f90.chunk.js.map": "/john-patterson/john-patterson.github.io/static/js/3.4b035f90.chunk.js.map",
+    "index.html": "/john-patterson/john-patterson.github.io/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/john-patterson/john-patterson.github.io/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.272abf68.chunk.js.LICENSE.txt": "/john-patterson/john-patterson.github.io/static/js/2.272abf68.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/john-patterson/john-patterson.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbaf754b.js",
+    "static/js/2.272abf68.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.bd1ba9b4.chunk.js"
+  ]
+}
