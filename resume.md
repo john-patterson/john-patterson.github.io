@@ -4,7 +4,7 @@ title: John Patterson
 permalink: /resume/
 ---
 
-_Download a PDF copy by clicking here._
+[_Download a PDF copy by clicking here._]({{ '/assets/documents/John_Resume_Feb_2020.pdf' | prepend: site.baseurl }})
 
 
 Professional Experience
@@ -12,28 +12,30 @@ Professional Experience
 
 **Microsoft:** (Apr 2018 - Present)
 
-_Senior Software Engineer_
+_Senior Software Engineer / Team Lead_
 
-* Served as Team Lead for a team of 5 engineers. Organized work, held regular 1:1's, prototyped and defined new feature areas, and communicated with stakeholders.
+* Led team of 5 engineers. Held regular 1:1’s, did project management, architected features, developed team agile practices, provided technical guidance through code reviews and pair programming, and liaised with partner teams and customers. Emphasized TDD, documentation, and peer demos.
 
-* Used C# to statically analyzing test specification files for correctness in Microsoft's BuildXL engine.
+* Refactored C# build tool to leverage an incremental build system, shaving 44% off build times.
 
-* Built and ran service critical to Office's migration onto Git VCS.
+* Improved caching, tripling system capacity ($3m+ savings), and eliminating most common errors.
 
-* Drove code quality and TDD into the fabric of my development team.
-
-* Created first set of standards around on-call on my team.
+* Developed an automation platform in C# which 1,700 engineers used to run 10m jobs per day.
 
 
 **Qualtrics:** (Jun 2017 - Apr 2018)
 
 _Software Engineer_
 
-* Converted JavaScript Protractor framework to TypeScript with net loss of 9k LOC
+* Converted an organization of 30+ engineers to use TypeScript.
 
-* Used TypeScript to leverage Gitlab API and automate monthly code coverage reporting
+([My article on this process.](https://www.qualtrics.com/eng/typescript-refactor))
 
-* Mentored team of product developers on testable code architecture and clean code standards
+* Automated code coverage reporting with TypeScript for 10 teams, saving 120 dev-days/yr.
+
+* Used JavaScript, TypeScript, and Python to write an Angular E2E framework serving 800 engineers.
+
+* Implemented CI/CD pipelines with Maven, Docker, Jenkins, and Rundeck.
 
 
 **Acadian Ambulance:** (Jan 2016 - Jun 2017)
@@ -80,6 +82,16 @@ with an on-board Raspberry Pi
 
 * Developed library for controlling the robot through RC allowing for automatic calibration of an arbitrary
 remote to the robot
+
+Recent Projects
+---------
+**[The Bartender's Manual](http://bartendersmanual.com) _(closed source)_**
+Making building your own home cocktail bar easy and affordable. Made with my friends with plans to
+monetize through affiliate marketing. Built using TypeScript, React, and GraphQL
+
+**[KLisp IDE](https://github.com/john-patterson/KLispIDE) _(open source)_**
+Toy Lisp implementation, language server, and IDE built in Kotlin. This was a solo project meant to teach
+myself Kotlin. Includes architecture and user documentation.
 
 Education
 ---------
