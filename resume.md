@@ -4,7 +4,7 @@ title: John Patterson
 permalink: /resume/
 ---
 
-[_Download a PDF copy by clicking here._]({{ '/assets/documents/John_Resume_Feb_2020.pdf' | prepend: site.baseurl }})
+[_Download a PDF copy by clicking here._]({{ '/assets/documents/john_patterson_resume.pdf' | prepend: site.baseurl }})
 
 
 Professional Experience
@@ -88,6 +88,9 @@ Recent Projects
 **[The Bartender's Manual](http://bartendersmanual.com) _(closed source)_**
 Making building your own home cocktail bar easy and affordable. Made with my friends with plans to
 monetize through affiliate marketing. Built using TypeScript, React, and GraphQL
+
+**[Plaid Jobs](http://www.johnppatterson.com/plaid-job-client/) [https://github.com/john-patterson/plaid-job-client](_(open source)_)**
+Plaid as an API-first company, requires that you apply to their jobs through a POST to an API. Using React and Typescript, I made a site to make applying easier for myself.
 
 **[KLisp IDE](https://github.com/john-patterson/KLispIDE) _(open source)_**
 Toy Lisp implementation, language server, and IDE built in Kotlin. This was a solo project meant to teach
