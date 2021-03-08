@@ -89,7 +89,7 @@ Recent Projects
 Making building your own home cocktail bar easy and affordable. Made with my friends with plans to
 monetize through affiliate marketing. Built using TypeScript, React, and GraphQL
 
-**[Plaid Jobs](http://www.johnppatterson.com/plaid-job-client/) [https://github.com/john-patterson/plaid-job-client](_(open source)_)**
+**[Plaid Jobs](http://www.johnppatterson.com/plaid-job-client/) [_(open source)_](https://github.com/john-patterson/plaid-job-client)**
 Plaid as an API-first company, requires that you apply to their jobs through a POST to an API. Using React and Typescript, I made a site to make applying easier for myself.
 
 **[KLisp IDE](https://github.com/john-patterson/KLispIDE) _(open source)_**
