@@ -1,4 +1,10 @@
-# Personal site
+# Overview
+This is my professional portfolio site available at johnppatterson.com or statelesscoder.com.
 
-This is my personal profile. It is driven by Jekyll and the [**Thinkspace** theme](http://heiswayi.github.io/thinkspace/)
+# About Me
+My name in John Patterson and I am a software engineer in Seattle.
 
+# Color Scheme:
+* Dark (bg): #1c1a18
+* Light (fg): #eaae5c
+* Light-highlight (fg): #f1dabb
