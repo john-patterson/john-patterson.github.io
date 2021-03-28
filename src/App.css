@@ -41,7 +41,8 @@
 }
 
 .App-header a {
-  color: #eaae5c;
+  color: #f1dabb;
+  text-decoration: none;
 }
 
 .App-body {
