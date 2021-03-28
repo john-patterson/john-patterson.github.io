@@ -1,0 +1,10 @@
+.selfie {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: block;
+}
