@@ -1,0 +1,15 @@
+{
+  "short_name": "John Patterson Portfolio",
+  "name": "The profession site of the Software Engineer John Patterson.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f1dabb",
+  "background_color": "#1c1a18"
+}
