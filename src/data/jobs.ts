@@ -34,12 +34,12 @@ export const jobs: Job[] = [
     from: "Jan 2016",
     to: "Jun 2017",
     description: [
-      "Created Clojure website with Ring & Compojure to debug and explore large-scale database diffs",
-      "Automated provisioning of new versions of the website also in Clojure",
-      "Introduced F# into a C# MVC project and mentored 3 FTEs in its adoption",
-      "Completed migration from 20 year old VB5 codebase to new C# codebase (16k inserted/ 25k deleted LOC)",
-      "Established a centralized logging system using Elasticsearch and Docker Compose",
-      "Rewrote interview process and on-boarded two part-time engineers",
+      "Created Clojure website with Ring & Compojure to debug and explore large-scale database diffs.",
+      "Automated provisioning of new versions of the website also in Clojure.",
+      "Introduced F# into a C# MVC project and mentored 3 FTEs in its adoption.",
+      "Completed migration from 20 year old VB5 codebase to new C# codebase (16k inserted/ 25k deleted LOC).",
+      "Established a centralized logging system using Elasticsearch and Docker Compose.",
+      "Rewrote interview process and on-boarded two part-time engineers.",
     ]
   },
   {
@@ -49,11 +49,11 @@ export const jobs: Job[] = [
     from: "May 2014",
     to: "Jan 2016",
     description: [
-      "Wrote multi-threaded SMTP relay to log e-mails for an in-house CRM system",
-      "Created GDI+ image customization library later licensed to Kingston",
-      "Automated AWS deployment and implemented smoke screen testing decreasing number production bugs",
-      "Full-stack development for VB.NET e-commerce site",
-      "Administered A/B testing to study new feature efficacy",
+      "Wrote multi-threaded SMTP relay to log e-mails for an in-house CRM system.",
+      "Created GDI+ image customization library later licensed to Kingston.",
+      "Automated AWS deployment and implemented smoke screen testing decreasing number production bugs.",
+      "Full-stack development for VB.NET e-commerce site.",
+      "Administered A/B testing to study new feature efficacy.",
     ]
   },
   {

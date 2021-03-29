@@ -15,15 +15,15 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <head className="App-header">
+        <div className="App-header">
           <div className="App-header-bar">
             <Link className="App-header-bar-item" to="/">Home</Link>
             <Link className="App-header-bar-item" to="/about">About</Link>
             <Link className="App-header-bar-item" to="/resume">Resume</Link>
             <Link className="App-header-bar-item" to="/works">Works</Link>
           </div>
-        </head>
-        <body className="App-body">
+        </div>
+        <div className="App-body">
           <div className="content-container">
             <Switch>
               <Route path="/" exact>
@@ -40,7 +40,7 @@ function App() {
               </Route>
             </Switch>
           </div>
-        </body>
+        </div>
       </Router>
     </div>
   );

@@ -1,0 +1,90 @@
+.job-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-header > span {
+    flex: 1 1 0;
+}
+
+.job-header > span:first-child {
+    text-align: left;
+}
+
+.job-header > span:last-child {
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    vertical-align: bottom;
+}
+
+.job-title {
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+
+.job-title > span {
+    flex: 1 1 0;
+}
+
+.job-title > span:first-child {
+    text-align: left;
+}
+
+.job-title > span:last-child {
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    vertical-align: top;
+}
+
+.education-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.education-header > span {
+    flex: 1 1 0;
+}
+
+.education-header > span:first-child {
+    text-align: left;
+}
+
+.education-header > span:last-child {
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    vertical-align: bottom;
+}
+
+.education-title {
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-title {
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+
+.education-title > span {
+    flex: 1 1 0;
+}
+
+.education-title > span:first-child {
+    text-align: left;
+}
+
+.education-title > span:last-child {
+    text-align: right;
+    font-style: italic;
+    font-size: small;
+    vertical-align: top;
+}
