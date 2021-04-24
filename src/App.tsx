@@ -6,23 +6,29 @@ import {
   Route
 } from 'react-router-dom';
 import { AboutPage } from './pages/AboutPage';
-import './App.css';
+import './App.scss';
 import { HomePage } from './pages/HomePage';
 import { ResumePage } from './pages/ResumePage';
 import { WorksPage } from './pages/WorksPage';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
+
       <Router>
-        <div className="App-header">
-          <div className="App-header-bar">
-            <Link className="App-header-bar-item" to="/">Home</Link>
-            <Link className="App-header-bar-item" to="/about">About</Link>
-            <Link className="App-header-bar-item" to="/resume">Resume</Link>
-            <Link className="App-header-bar-item" to="/works">Works</Link>
-          </div>
-        </div>
+        <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="#home">John Patterson</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+              <Nav.Link as={Link} to="/works">Works</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         <div className="App-body">
           <div className="content-container">
             <Switch>
