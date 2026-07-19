@@ -14,16 +14,14 @@ export function About() {
             payments products.
           </p>
           <p>
-            I started out as a backend developer, and I still get excited about compilers,
-            functional programming, and data — but what I enjoy most now is growing people and
-            teams, untangling gnarly cross-functional problems, and making delivery feel calm and
-            predictable.
+            I started out as a backend developer and still enjoy the craft — but what energizes me
+            most now is growing people and teams, untangling cross-functional problems, and making
+            delivery feel calm and predictable.
           </p>
           <p>
             Outside of work, exercise fuels me — I help organize a run club and log a lot of
-            kilometers. I'm a lifelong reader, wrote two novel manuscripts back in 2019 (still
-            slowly editing them), and I like studying languages. English is my native tongue, I
-            know some Spanish and German, and I'm working on my Dutch.
+            kilometers. I'm a lifelong reader and writer, and I like studying languages: English is
+            my native tongue, I know some Spanish and German, and I'm working on my Dutch.
           </p>
           <p className="about__nl">
             <em>

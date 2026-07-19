@@ -6,6 +6,8 @@ export interface Job {
   period?: string;
   /** Optional external link related to the role (e.g. a writeup). */
   link?: string;
+  /** Render compactly as a single muted line (used for earlier-career roles). */
+  condensed?: boolean;
   highlights: string[];
 }
 

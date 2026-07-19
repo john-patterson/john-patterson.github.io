@@ -5,16 +5,14 @@ export const profile: Profile = {
   role: "Engineering Manager @ Adyen",
   location: "Amsterdam, Netherlands",
   tagline:
-    "Engineering leader who operates like an owner — I frame the strategy, scale the teams, " +
-    "and ship hard cross-org initiatives to measurable outcomes.",
+    "Product-minded engineering leader. I build teams — and the leaders inside them — that turn " +
+    "ambiguous problems into shipped business outcomes, in close partnership with Product and Design.",
   summary:
-    "I'm an engineering manager who thinks in business outcomes and organizational leverage. " +
-    "Promoted to EM within nine months of joining Adyen, I lead 12+ people across the Balance " +
-    "Platform — but I'm at my best turning ambiguous, high-stakes problems into a shared strategy " +
-    "and executing it across a federated org. I scale by enabling teams rather than absorbing work, " +
-    "build coalitions where I don't hold authority, and stay technical enough — after years " +
-    "hands-on at Adyen, Stripe, and Microsoft — to lead the how, not just the what. Long term, " +
-    "I'm building toward executive leadership.",
+    "I lead two multidisciplinary teams — 12+ engineers, PMs, and a designer — that own Adyen's " +
+    "merchant-facing Customer Area. I lead through enablement and leader development: coaching " +
+    "senior engineers into ownership, building capability in partner teams, and treating Product " +
+    "and Design as co-authors of strategy rather than downstream consumers. Years hands-on at " +
+    "Stripe and Microsoft keep me credible on the how, not just the what.",
   email: "john@johnppatterson.com",
   github: "https://github.com/john-patterson",
   linkedin: "https://linkedin.com/in/john-patterson",
@@ -23,15 +21,15 @@ export const profile: Profile = {
 
 export const pillars: Pillar[] = [
   {
-    title: "Strategy & framing",
-    body: "I turn ambiguous, high-stakes problems into a business case that aligns an organization — and a plan it will actually execute.",
+    title: "Product partnership",
+    body: "I lead engineering as a product discipline. Product and Design are co-authors of strategy on my teams — and it shows in the outcomes we choose and the ones we hit.",
   },
   {
-    title: "Scaling teams",
-    body: "I scale through enablement, not central absorption: hiring, coaching, and repeatable playbooks that let other teams build their own capability.",
+    title: "Growing leaders",
+    body: "I scale by developing ownership in others: coaching senior engineers into leads, onboarding new leaders, and building teams that run well when I'm not in the room.",
   },
   {
     title: "Cross-org execution",
-    body: "I ship hard initiatives across a federated org, building coalitions and influence where I don't hold authority, and holding the line on outcomes.",
+    body: "I ship hard initiatives across a federated org, building coalitions and influence where I don't hold authority — and holding the line on outcomes.",
   },
 ];
