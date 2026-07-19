@@ -11,7 +11,7 @@ export const jobs: Job[] = [
       "Coached a Senior Engineer to own a data-service migration to Elasticsearch and Kafka end to end, taking critical SLO slips from 12+ to zero.",
       "Took ownership of the critical payments pages and drove +70% on their product-goal KPIs.",
       "Rallied a cross-functional task force to ship platform-wide privacy controls under a one-week compliance deadline, aligning stakeholders across Legal, Commercial, Security, and Comms behind one execution plan.",
-      "Led the end-to-end deprecation of the Balance Platform Customer Area — the initiative detailed in the case study above.",
+      "Led the end-to-end consolidation of two customer portals into one — the initiative detailed in the case study above.",
     ],
   },
   {
@@ -21,7 +21,7 @@ export const jobs: Job[] = [
     period: "Jan 2024 – Oct 2024",
     highlights: [
       "Shaped a new KYC performance-insights tool, interviewing pilot customers and folding their feedback directly into the product.",
-      "Backend Java/Spring engineer on the Balance Platform Customer Area — the platform, marketplace, and bank customer-management portal.",
+      "Backend Java/Spring engineer on a customer-management portal serving platform, marketplace, and banking customers.",
     ],
   },
   {
