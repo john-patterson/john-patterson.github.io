@@ -22,6 +22,30 @@ export interface SkillGroup {
   items: string[];
 }
 
+export interface Pillar {
+  title: string;
+  body: string;
+}
+
+export interface CaseMove {
+  label: string;
+  body: string;
+}
+
+export interface CaseMetric {
+  value: string;
+  label: string;
+}
+
+export interface CaseStudy {
+  eyebrow: string;
+  title: string;
+  situation: string;
+  moves: CaseMove[];
+  metrics: CaseMetric[];
+  closing: string;
+}
+
 export interface Profile {
   name: string;
   role: string;

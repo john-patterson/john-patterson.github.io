@@ -154,6 +154,36 @@ a:hover {
   font-size: 0.95rem;
 }
 
+/* ---------- Pillars ---------- */
+.pillars-section {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 40px 0;
+}
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.pillar__title {
+  margin: 0 0 8px;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.pillar__body {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+@media (max-width: 720px) {
+  .pillars {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
 /* ---------- Sections ---------- */
 .section {
   padding: 64px 0;
@@ -191,6 +221,84 @@ a:hover {
 }
 .about__nl {
   color: var(--muted);
+}
+
+/* ---------- Case study ---------- */
+.casestudy {
+  border-top: 3px solid var(--accent);
+  padding-top: 34px;
+}
+.casestudy__eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.casestudy__title {
+  margin-bottom: 18px;
+}
+.casestudy__situation {
+  margin: 0 0 28px;
+  font-size: 1.06rem;
+  max-width: 70ch;
+}
+.casestudy__metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 34px;
+}
+.metric {
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.metric__value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.metric__label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.casestudy__moves {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px 28px;
+  margin-bottom: 28px;
+}
+.move__label {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.move__body {
+  margin: 0;
+  color: #333;
+  font-size: 0.96rem;
+}
+.casestudy__closing {
+  margin: 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  max-width: 70ch;
+}
+@media (max-width: 680px) {
+  .casestudy__metrics {
+    grid-template-columns: 1fr;
+  }
+  .casestudy__moves {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- Timeline / Experience ---------- */
