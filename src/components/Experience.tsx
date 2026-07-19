@@ -1,4 +1,4 @@
-import { jobs } from "../data";
+import { jobs, skills, education } from "../data";
 
 export function Experience() {
   return (
@@ -7,7 +7,10 @@ export function Experience() {
         <h2 className="section__title">Experience</h2>
         <ol className="timeline">
           {jobs.map((job, i) => (
-            <li key={`${job.company}-${i}`} className="timeline__item">
+            <li
+              key={`${job.company}-${i}`}
+              className={`timeline__item${job.condensed ? " timeline__item--condensed" : ""}`}
+            >
               <div className="timeline__head">
                 <h3 className="timeline__title">
                   {job.title} <span className="timeline__at">·</span>{" "}
@@ -24,14 +27,40 @@ export function Experience() {
                   {job.period && <span className="timeline__period">{job.period}</span>}
                 </div>
               </div>
-              <ul className="timeline__points">
-                {job.highlights.map((point, j) => (
-                  <li key={j}>{point}</li>
-                ))}
-              </ul>
+              {job.condensed ? (
+                <p className="timeline__note">{job.highlights.join(" ")}</p>
+              ) : (
+                <ul className="timeline__points">
+                  {job.highlights.map((point, j) => (
+                    <li key={j}>{point}</li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ol>
+
+        <div className="credentials">
+          {skills.map((group) => (
+            <div key={group.label} className="credentials__group">
+              <h3 className="credentials__label">{group.label}</h3>
+              <ul className="skills__tags">
+                {group.items.map((item) => (
+                  <li key={item} className="tag">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          <div className="credentials__group">
+            <h3 className="credentials__label">Education</h3>
+            <p className="credentials__edu">
+              {education[0].degrees.join(" · ")}
+              <span className="credentials__eduschool">{education[0].university}</span>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
